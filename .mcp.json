@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "prodeology": {
+      "type": "http",
+      "url": "https://www.prodeology.com/api/companion/mcp"
+    }
+  }
+}
