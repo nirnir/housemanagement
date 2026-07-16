@@ -1,0 +1,36 @@
+{
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "mcp__prodeology__ask",
+      "mcp__prodeology__resolve_decision",
+      "mcp__prodeology__get_context",
+      "mcp__prodeology__log_progress",
+      "mcp__prodeology__report_completion"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/prodeology-companion.mjs\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/prodeology-companion.mjs\""
+          }
+        ]
+      }
+    ]
+  }
+}
