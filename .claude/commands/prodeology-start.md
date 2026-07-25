@@ -1,12 +1,12 @@
-Prodeology Execution Companion protocol v4
+Prodeology Coding Companion protocol v4
 
-Link this coding session to the Prodeology Live Execution Companion.
+Link this coding session to the Prodeology Live Coding Companion.
 
 Spec argument (optional): $ARGUMENTS
 
 Steps:
 
-1. Read the spec document's "Live Execution Companion" protocol header. Copy
+1. Read the spec document's "Live Coding Companion" protocol header. Copy
    its `spec_key`, `spec_export_id`, `spec_version`, and optional
    `spec_fingerprint` exactly. If the document has only `spec_key`, use it
    as a documented legacy fallback. An argument above may supply that fallback.
