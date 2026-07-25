@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Prodeology Execution Companion protocol v4 — advisory bridge + deep-tier hooks.
+// Prodeology Coding Companion protocol v4 — advisory bridge + deep-tier hooks.
 // Installed by the Prodeology Session Kit. Configured by the repo owner.
 // Adds grounded recommendations when available; never answers for the user.
 import fs from "node:fs";

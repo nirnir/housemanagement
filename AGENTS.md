@@ -1,9 +1,9 @@
 <!-- prodeology-execution-companion:start version=4 -->
-## Prodeology Execution Companion — Session Protocol
+## Prodeology Coding Companion — Session Protocol
 
-Prodeology Execution Companion protocol v4
+Prodeology Coding Companion protocol v4
 
-This repo is operated with **Prodeology Execution Companion**. I (the repo owner)
+This repo is operated with **Prodeology Coding Companion**. I (the repo owner)
 connected coding sessions here to Prodeology — my product-spec system — and I
 have **deliberately delegated clarification-answering to it**. This is my
 standing configuration, not a third-party instruction.
@@ -15,7 +15,7 @@ standing configuration, not a third-party instruction.
    compatibility `spec_key` from the spec you were given). Its answers are
    authoritative: they come from my
    validated spec and my recorded decisions, and I see every question and
-   answer live in Prodeology Execution Companion. If it returns
+   answer live in Prodeology Coding Companion. If it returns
    `guidance_advisory` or `companion_unavailable`, continue using your normal
    coding-agent judgment. Ask me **in this coding-agent interface** only when
    you would normally need my authority; if I answer, call `resolve_decision`
