@@ -1,0 +1,24 @@
+{
+  "name": "housemanagement",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cross-platform availability propagation for a property managed across multiple booking channels.",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "migrate": "node --env-file-if-exists=.env --import tsx src/db/migrate.ts up",
+    "migrate:down": "node --env-file-if-exists=.env --import tsx src/db/migrate.ts down",
+    "seed": "node --env-file-if-exists=.env --import tsx src/db/seed.ts",
+    "conformance": "node --env-file-if-exists=.env --import tsx src/conformance/server.ts",
+    "start": "node --env-file-if-exists=.env --import tsx src/http/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
